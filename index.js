@@ -11,8 +11,8 @@ function playGame() {
         let userAnswer = window.prompt(question.text)
         if(userAnswer === question.correctAnswer){
             userScore = userScore + 10
-        }
-       
+        } 
+        window.alert('Your score is: '+userScore) 
     }
     window.alert('Your score is: '+userScore) 
 }
@@ -27,12 +27,3 @@ while (playAgain === true){
         window.alert('Thank you for playing the game.')
     }
 }
-   
- /*if (userScore === 100) {
-        msg = 'YOU WIN!!! \n';
-        alert (msg);
-        win = true;
-    else(win = false){
-    alert('Play again?')
-    }
-}*/
