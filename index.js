@@ -8,6 +8,7 @@ for(let i = 0; i < questions.length; i++){
     if(userAnswer === question.correctAnswer){
         userScore = userScore + 10
     }
+    window.alert('Your score is: '+userScore)
 }
 
 window.alert('Your score is: '+userScore) 
